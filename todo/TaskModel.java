@@ -3,7 +3,7 @@ package todo;
 import java.util.*;
 
 public class TaskModel {
-    private List<Task> tasks;ｚ
+    private List<Task> tasks;
     public TaskModel() {
         this.tasks = new ArrayList<Task>();
     }
