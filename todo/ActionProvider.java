@@ -7,6 +7,8 @@ public class ActionProvider {
             return new ShowTaskAction(model, command);
         } else if (command.getName().equals("add")) {
             return new AddTaskAction(model, command);
+        } else if (command.getName().equals("delete")) {
+            return new DeleteTaskAction(model, command);
         }  else {
             return null;
         }
