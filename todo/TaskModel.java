@@ -24,12 +24,5 @@ public class TaskModel {
         this.tasks.add(new Task(currentMaxId + 1, text));
     }
 
-    public void delete(int id) {
-        for(Task task : this.tasks) {
-            if(task.getId() == id) {
-                this.tasks.remove(this.tasks.indexOf(task));
-                return;
-            }
-        }
-    }
+    
 }
